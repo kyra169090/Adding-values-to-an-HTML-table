@@ -13,7 +13,7 @@ This AutoHotkey script, combined with JavaScript (for DOM manipulation), automat
 * Press Alt+P to start the process of inputting the copied data into the web page.
 * Any other things are commented in the code
 
-* # Just a tip
+# Just a tip
 Use this function in Chrome DevTools console, if you would like to know all event listeners attached to a specified DOM element:
 ```javascript  
   getEventListeners(document.querySelector('your-element-selector'));
