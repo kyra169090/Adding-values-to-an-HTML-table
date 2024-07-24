@@ -5,8 +5,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance,Force
 SetBatchLines, 40ms         ; when I did not use this line my script often just stopped, which seemed pretty abnormal
 
-
-Esc::ExitApp ; Exit the application on pressing Escape
 /*
 ************access Path to G33kDude's Chrome.ahk file needs to be changed*********************
 */
@@ -35,7 +33,7 @@ HandleSelection(ByRef arr) {
     }
 }
 
-
+Esc::ExitApp ; Exit the application on pressing Escape
 /*
 ************Press Alt+P for starting the adding process*********************
 */
