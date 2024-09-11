@@ -1,7 +1,7 @@
 # Automated Web Input Process - Adding values to an HTML table from an Excel Spreadsheet
 You have an Excel file with values and a webpage with an HTML table? And you need to migrate the data from one to the other? No CSV import or anything? How annoying! This script can help.
 
-This AutoHotkey script, combined with JavaScript (for DOM manipulation), automates the process of copying selected cells from Excel and inputting the data into a web page using G33kDude's Chrome.ahk library. It's designed to work with a specific web page identified by its title.
+This AutoHotkey script, combined with JavaScript (for DOM manipulation), automates the process of copying selected cells from Excel and inputting the data into a web page (populating its DOM elements), using G33kDude's Chrome.ahk library. It's designed to work with a specific web page identified by its title.
 
 # How it works
 * Install AutoHotkey
