@@ -13,10 +13,17 @@ This AutoHotkey script, combined with JavaScript (for DOM manipulation), automat
 * Press Alt+P to start the process of inputting the copied data into the web page.
 * Any other things are commented in the code
 
+UPDATE on the 07/05/2025: if you use Google Chrome version 136+, then you have to make extra steps: 
+* make a new empty folder here: C:\MyDataDir
+* at your Google Chrome properties you have to extend the Target section like this: " --profile-directory=Default --remote-debugging-port=9222 --remote-allow-origins=*  --user-data-dir="C:\MyDataDir"
+* reopen Google Chrome. If you miss your bookmarks, then copy and paste the "Bookmarks" file from your Appdata folder, to this new MyDataDir folder
+
 # Just a tip
 Use this function in Chrome DevTools console, if you would like to know all event listeners attached to a specified DOM element:
 ```javascript  
   getEventListeners(document.querySelector('your-element-selector'));
+
+
 
 
 
